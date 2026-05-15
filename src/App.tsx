@@ -1,8 +1,10 @@
 import { Fragment } from 'react/jsx-runtime'
+import { Heading } from './components/Heading'
 
 export function App(){
     return(
         <Fragment>
+            <Heading/>
           <h1> Olá Mundo! </h1>
            <p>
              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
